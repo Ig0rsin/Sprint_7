@@ -24,5 +24,6 @@ public class CourierLoginRequest {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }
 

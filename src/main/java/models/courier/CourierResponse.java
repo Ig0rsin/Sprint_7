@@ -6,5 +6,6 @@ public class CourierResponse {
     public boolean isOk() {
         return ok;
     }
+
 }
 

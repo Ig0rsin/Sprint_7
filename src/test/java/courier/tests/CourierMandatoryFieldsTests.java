@@ -52,5 +52,6 @@ public class CourierMandatoryFieldsTests {
         Response courierResponse = client.create(courier);
         assertEquals(data.expectedStatusCode, courierResponse.statusCode(), "Неверный статус-код");
     }
+
 }
 

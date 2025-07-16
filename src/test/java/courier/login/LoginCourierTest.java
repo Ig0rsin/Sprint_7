@@ -21,5 +21,6 @@ public class LoginCourierTest extends LoginCourierTestBase {
         CourierLoginResponse loginResponse = courierLoginResponse.as(CourierLoginResponse.class);
         assertNotEquals(0, loginResponse.getId(), "ID не должен быть 0");
     }
+
 }
 

@@ -49,5 +49,6 @@ public class CreateCourierTests extends TestBase {
         assertEquals(HttpStatus.SC_CONFLICT, sameLoginCourierResponse.statusCode(), "Неверный статус-код при создании курьера с существующим логином");
         assertEquals(ErrorMessages.CREATE_ACCOUNT_ALREADY_USED, sameLoginCourierResponse.as(ErrorResponse.class).getMessage(), "Неверное сообщение об ошибке");
     }
+
 }
 

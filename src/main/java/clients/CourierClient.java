@@ -1,8 +1,10 @@
 package clients;
 
 import io.restassured.response.Response;
+
 import models.courier.CourierLoginRequest;
 import models.courier.CourierRequest;
+
 import static io.restassured.RestAssured.given;
 
 public class CourierClient extends ClientBase {
