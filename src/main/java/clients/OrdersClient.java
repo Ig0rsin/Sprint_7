@@ -24,5 +24,6 @@ public class OrdersClient extends ClientBase{
                 .when()
                 .get(API_V1_ORDERS);
     }
+
 }
 

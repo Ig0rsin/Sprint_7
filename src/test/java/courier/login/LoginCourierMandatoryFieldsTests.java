@@ -47,5 +47,6 @@ public class LoginCourierMandatoryFieldsTests extends LoginCourierTestBase {
         Response courierLoginResponse = this.client.login(courierLoginInvalid);
         assertEquals(testCase.expectedStatusCode, courierLoginResponse.statusCode(), "Неверный статус-код");
     }
+
 }
 

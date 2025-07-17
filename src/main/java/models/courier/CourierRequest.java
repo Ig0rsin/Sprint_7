@@ -37,5 +37,6 @@ public class CourierRequest {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
 }
 

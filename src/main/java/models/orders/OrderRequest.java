@@ -110,5 +110,6 @@ public class OrderRequest {
     public void setColor(List<String> color) {
         this.color = color;
     }
+
 }
 
